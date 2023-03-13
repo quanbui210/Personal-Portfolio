@@ -5,7 +5,7 @@ import NavItem from "./NavItem"
 export default function NavBar() {
   return (
     <div className="navbar">
-        <NavItem/>
+      <NavItem/>
     </div>
   )
 }
