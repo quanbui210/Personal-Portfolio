@@ -1,0 +1,84 @@
+.intro {
+    margin: 170px 200px;
+    width: 56%;
+
+    animation: slider-appear 1s ease-out forwards;
+        &-title{
+            font-size: 67px;
+            color: #ccc;
+            letter-spacing: .3px;
+        }
+        &-description {
+            font-size: 25px;
+            font-style: italic;
+            margin-top: 14px;
+            line-height: 1.8;
+        }
+        &-icon {
+            margin: 0px 10px 10px 15px;
+            color: #ccc;
+            padding: 10px;
+                &:hover {
+                    opacity: 0.8;
+                    color: rgb(78, 69, 69);
+                }
+        }
+}
+
+
+
+@media screen and (max-width: 450px){
+    .intro {
+        margin: 80px 100px 263px 80px;
+            &-title{
+                font-size: 26px;
+                color: #ccc;
+                letter-spacing: .3px;
+            }
+            &-description {
+                font-size: 14px;
+                font-style: italic;
+                margin-top: 14px;
+                line-height: 1.6;
+            }
+            &-icon {
+                margin: 0px 10px 10px 15px;
+                color: #ccc;
+                    &:hover {
+                        opacity: 0.8;
+                        color: rgb(78, 69, 69);
+                    }
+            }
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1900px) {
+    .intro {
+        margin: 80px 100px;
+            &-title{
+                font-size: 46px;
+                color: #ccc;
+                letter-spacing: .3px;
+            }
+            &-description {
+                font-size: 21px;
+                font-style: italic;
+                margin-top: 14px;
+                line-height: 1.6;
+            }
+    }
+}
+
+
+
+@keyframes slider-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}

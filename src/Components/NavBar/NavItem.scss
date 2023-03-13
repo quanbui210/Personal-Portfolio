@@ -1,0 +1,53 @@
+@import "../../common-styles/styles";
+@import "../../common-styles/variables";
+
+.navbar {
+        &--list {
+            display: flex;
+                &__title {
+                    margin: 18px; 
+                    position: relative;
+                    min-height: 26px;
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 26px;
+                        &:hover {
+                            opacity: 0.8;
+                            color: #fff;
+                        }
+                }
+                &__item {
+                    @include flexCenter;
+                    margin: 18px; 
+                    position: relative;
+                    min-height: 26px;
+                    text-decoration: none;
+                    color: #ccc !important;
+                    font-size: 15px;
+                    margin-right: 20px;
+                }
+        }
+}
+
+.container-menu {
+    background-color: inherit !important;
+}
+
+
+
+.menu-list {
+    list-style: none;
+    margin-right: 30px;
+        li {
+            margin: 15px 0;
+        }
+}
+
+.menu-item {
+    color: #ccc;
+    text-decoration: none;
+    margin: 10px;
+        &-hover {
+            text-decoration: underline;
+        }
+}

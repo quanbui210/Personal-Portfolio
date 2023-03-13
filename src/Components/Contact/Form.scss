@@ -1,0 +1,55 @@
+.form{
+    margin: 0 100px;
+    border: 1px solid #ccc;
+    padding: 50px 50px 80px 50px;
+        h5 {
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        &-control {
+            margin-bottom: 15px;
+        }
+        &-label {
+            float: left;
+            font-size: 14px;
+        }
+        &-text {
+            font-size: 12px;
+        }
+        button {
+            background-color: inherit;
+            border: 1px solid #ccc;
+            margin-top: 30px;
+            float: right !important;
+            color: #ccc;
+                &:hover {
+                    background-color: #ccc;
+                    color: #333;
+                }
+        }
+}
+
+
+@media screen and (max-width: 500px) {
+    .form {
+        margin: 0
+    }
+    h5 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .form {
+        margin: 0;
+            &-label {
+                font-size: 10px;
+            }
+            &-text {
+                font-size: 10px;
+            }
+    }
+    h5 {
+        font-size: 20px;
+    }
+}

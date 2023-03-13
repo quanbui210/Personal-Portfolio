@@ -1,0 +1,34 @@
+.container {
+    border-radius:3px;
+    width: 60%;
+    margin:10px auto;
+    text-align:center;
+    margin-top: 267px;
+    padding: 5px;
+    padding-bottom:20px;
+    overflow:hidden;
+        h2 {
+            color: #ccc;
+            margin-bottom: 40px;
+        }
+        p {
+            color: #ccc;
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+}
+
+
+@media screen and (max-width: 500px) {
+    .container {
+        h2 {
+            font-size: 18px;
+            margin: 0 27px;
+            
+        }
+        p {
+            font-size: 10px;
+            margin: 30px 10px;
+        }
+    }
+}

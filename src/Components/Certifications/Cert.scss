@@ -1,0 +1,65 @@
+.cert {
+    color: #ccc;
+    margin-top: 100px;
+    display: grid;
+        img{
+            width: 500px;
+            height: 480px;
+            max-height: 480px;
+            margin: 50px 0;
+        }
+        a {
+            font-size: 22px;
+            color: #ccc;
+                &:hover {
+                    color: #ccc;
+                    opacity: 0.6;
+                }
+        }
+}
+
+
+
+.badge-icon {
+    position: absolute;
+}
+
+@media screen and (min-width: 1370px){ 
+    .cert {
+        img {
+            width: 400px;
+            height: 350px;
+            margin-top: 30px;
+            margin-bottom: 20px;  
+        }
+        a {
+            font-size: 14px;
+        }
+    }
+
+    .badge-icon {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 400px){ 
+    .cert {
+        img {
+            width: 200px;
+            height: 160px;
+            margin-top: 30px;
+            margin-bottom: 20px;  
+        }
+        a {
+            font-size: 10px;
+        }
+    }
+
+    .badge-icon {
+        display: none;
+    }
+
+}

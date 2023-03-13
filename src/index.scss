@@ -1,0 +1,23 @@
+@import "./common-styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+body {
+  @include reset;
+  background-image: linear-gradient(to left, #414040, #000000);
+  color: $text-color;
+};
+
+
+* {
+  font-family: 'Sono', sans-serif;
+}
+
+h2, h3, h4, h5, h6, p{
+  font-weight:300;
+  letter-spacing: .3px;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: .2px;
+}

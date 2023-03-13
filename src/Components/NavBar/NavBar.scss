@@ -1,0 +1,38 @@
+@import "../../common-styles/variables";
+@import "../../common-styles/styles";
+header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        background-color: $dark-color; 
+        background-image: linear-gradient(to left, #414040, #000000);
+    }
+        .logo {
+        margin: 10px 20px;
+        }
+            a {
+                text-decoration: none;
+                color: #ccc;
+            }
+}
+
+.logo > a > img{
+    width: 90px !important;
+}
+
+// nav > ul {
+//     display: flex;
+//     list-style-type: none;
+//         li {
+//             margin: 10px 20px;
+//         }
+//             a {
+//                 text-decoration: none;
+//                 color: #ccc;
+//             }
+//             a:hover {
+//                 text-decoration: underline;
+//                 opacity: 0.7;
+//             }
+// }

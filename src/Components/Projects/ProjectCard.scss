@@ -1,0 +1,100 @@
+.project-card { 
+    margin-top: 60px;
+    min-width: 55%;
+    width: 700px;
+    max-height: 800px;
+    color: rgb(230, 230, 230);
+    border: 1px solid rgb(122, 122, 122);
+    box-shadow: 0 0 1px 1px rgb(92, 92, 92) !important;
+    background-color: transparent !important;
+        &-image{
+            width: 100%;
+            min-height: 400px; 
+            object-fit: contain;
+        }
+        &-content {
+            color: rgb(153, 150, 150);
+        }
+        &-text{
+            width: 70%;
+            font-weight: 550;
+            font-size: 16px;
+            line-height: 1.8rem !important;
+            letter-spacing: .0.8rem;
+            color: rgb(153, 150, 150) !important;
+        }
+        &-icon {
+            color: #ccc;
+                :hover {
+                    opacity: 0.8;
+                    cursor: pointer;
+                    transform: translateY(-6px);
+                    transition: all .2s ease-in-out 0s;
+                    -webkit-transform: all .4s ease-in-out 0s;
+                }
+        }
+        &-tech {
+            margin-bottom: 1px;
+            font-weight: bold;
+            font-weight: 800;
+            color: rgb(153, 150, 150) !important;
+        }
+        &-seemore {
+            text-align: center;
+            color: rgb(167, 167, 167);
+            padding: 10px;
+            font-size: 20px;
+            margin-top: 80px;
+        }
+
+}
+.tag {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+    font-weight: bold;
+    border: 0.5px solid #ccc;
+    padding: 4px;
+        &:hover {
+            opacity: 0.8;
+            color: #333;
+            background-color: #ccc;
+        }        
+}
+ 
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+@media screen and (max-width: 400px){
+    .project-card { 
+        margin-top: 40px;
+        max-width: 80%;
+        min-width: 50%;
+        width: 400px;
+        max-height: 700px;
+            &-content {
+                font-size: 10px;
+            }
+            &-text {
+                width: 60%;
+                font-weight: 550;
+                font-size: 12px !important; 
+                line-height: 1.2rem;
+                letter-spacing: .6rem;
+            }
+            p {
+                font-size: 11px;
+            }
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+}

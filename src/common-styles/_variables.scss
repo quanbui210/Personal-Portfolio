@@ -1,0 +1,15 @@
+$fonxt-family: 'Open Sans', sans-serif;
+$dark-color: #333;
+$text-color: #ccc;
+
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
