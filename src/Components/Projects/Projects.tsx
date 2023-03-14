@@ -1,4 +1,4 @@
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./ProjectCard.tsx";
 import "./Projects.scss"
 
 import React from "react";
@@ -37,7 +37,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <h2>
-                My Projects
+        My Projects
         <IntegrationInstructionsIcon style={{fontSize: "42px", marginTop:"-8px"}}/>
       </h2>
       {projects.map(project => (

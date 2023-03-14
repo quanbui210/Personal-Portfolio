@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
-import Form from "./Form";
+import Form from "./Form.tsx";
 import "./Contact.scss"
 
 import FacebookIcon from "@mui/icons-material/Facebook";

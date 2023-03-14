@@ -13,9 +13,7 @@ import IconButton from "@mui/material/IconButton";
 import AppBar from "@mui/material/AppBar";
 
 
-import { useState } from "react";
-
-
+import React, { useState } from "react";
 
 const NavItem = () => {
   const mobile = useMediaQuery('(max-width:600px)')

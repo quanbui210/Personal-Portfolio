@@ -1,7 +1,7 @@
 import "./TechStacks.scss";
 import React from "react";
-import Table from "./Table";
-import OtherSkills from "./OtherSkills";
+import Table from "./Table.tsx";
+import OtherSkills from "./OtherSkills.tsx";
 
 const TechStacks = () => {
   return (
