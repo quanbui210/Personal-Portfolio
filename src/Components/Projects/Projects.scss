@@ -1,7 +1,7 @@
+@import "../../common-styles/variables";
 .projects {
-    display: flex;
+    @include flexCenter;
     flex-direction: column;
-    justify-content: center;
-    align-items:center;
+
 }
 
