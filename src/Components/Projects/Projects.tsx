@@ -1,4 +1,4 @@
-import ProjectCard from "./ProjectCard.tsx";
+import ProjectCard from "./ProjectCard.jsx";
 import "./Projects.scss"
 
 import React from "react";

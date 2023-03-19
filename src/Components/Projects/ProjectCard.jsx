@@ -11,16 +11,9 @@ import Typography from "@mui/material/Typography";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
-interface Props {
-  title: string,
-  description: string,
-  tech: string,
-  img: string,
-  github: string,
-  live: string
-}
 
-const ProjectCard: React.FC<Props> = ({title, description, tech, img, github, live}) => {
+
+const ProjectCard = ({title, description, tech, img, github, live}) => {
   return (
     <div className="card-container">
       <Card className="project-card" sx={{ maxWidth: 345 }}>

@@ -1,18 +1,17 @@
 .intro {
-    margin: 170px 200px;
+    margin: 350px 180px;
     width: 56%;
-
     animation: slider-appear 1s ease-out forwards;
         &-title{
-            font-size: 67px;
+            font-size: 65px;
             color: #ccc;
-            letter-spacing: .3px;
+            letter-spacing: .4px;
         }
         &-description {
             font-size: 25px;
             font-style: italic;
             margin-top: 14px;
-            line-height: 1.8;
+            line-height: 2.0;
         }
         &-icon {
             margin: 0px 10px 10px 15px;
@@ -54,7 +53,8 @@
 
 @media screen and (min-width: 700px) and (max-width: 1900px) {
     .intro {
-        margin: 80px 100px;
+        margin: 240px;
+        width: 100%;
             &-title{
                 font-size: 46px;
                 color: #ccc;
@@ -62,6 +62,23 @@
             }
             &-description {
                 font-size: 21px;
+                font-style: italic;
+                margin-top: 14px;
+                line-height: 1.6;
+            }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .intro {
+        margin: 222px 100px;
+            &-title{
+                font-size: 26px;
+                color: #ccc;
+                letter-spacing: .3px;
+            }
+            &-description {
+                font-size: 11px;
                 font-style: italic;
                 margin-top: 14px;
                 line-height: 1.6;
