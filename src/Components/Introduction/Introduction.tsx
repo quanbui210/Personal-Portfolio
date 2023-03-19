@@ -6,7 +6,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 
 export default function Introduction() {
   return (
-    <>
+    <div>
       <section className="intro" id="intro">  
         <h1 className="intro-title">Hi, My name is Quan Bui, I build and design Web Applications. </h1>
         <p className="intro-description">An highly adaptable web developer with a huge passion in coding, designing and working with websites. 
@@ -17,6 +17,6 @@ export default function Introduction() {
           <a href='facebook.com' className='intro-icon'><FacebookIcon/></a>
         </div>
       </section>
-    </>
+    </div>
   )
 }

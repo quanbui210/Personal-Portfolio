@@ -31,7 +31,6 @@
         margin: 200px 100px 0px 80px;
             &-title{
                 font-size: 25px;
-                color: #ccc;
                 letter-spacing: .3px;
             }
             &-description {
@@ -42,7 +41,6 @@
             }
             &-icon {
                 margin: 0px 10px 10px 15px;
-                color: #ccc;
                     &:hover {
                         opacity: 0.8;
                         color: rgb(78, 69, 69);
@@ -61,7 +59,6 @@
             }
             &-description {
                 font-size: 21px;
-                font-style: italic;
                 margin-top: 14px;
                 line-height: 1.6;
             }
