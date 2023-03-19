@@ -4,7 +4,6 @@
     margin:10px auto;
     text-align:center;
     margin-top: 267px;
-    padding: 5px;
     padding-bottom:20px;
     overflow:hidden;
         h2 {
@@ -21,6 +20,7 @@
 
 @media screen and (max-width: 500px) {
     .container {
+        width: 100%;
         h2 {
             font-size: 18px;
             margin: 0 27px;

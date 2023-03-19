@@ -103,12 +103,31 @@ tbody td:nth-child(2) .percent{
         float: right;
     }
     .percent{
-      top:19px;
-      margin-left:5px;
-      margin-right:10px;
       display: none;
     }
   }
+
+  // @media screen and (max-width: 600px) {
+  //   .container{
+  //     border-radius:3px;
+  //     /*width:500px;*/
+  //     width: 90% !important;
+  //     margin:10px auto;
+  //     text-align:center;
+  //     align-items: center;
+  //     justify-content: center;
+  //     margin-top: 180px;
+  //     padding-bottom:20px;
+  //     overflow:hidden;
+  //   }
+  //   .bar {
+  //     float: right;
+  //     display: none;
+  // }
+  //   .percent{
+      
+  //   }
+  // }
 
 
 
@@ -116,7 +135,7 @@ tbody td:nth-child(2) .percent{
     .container{
       border-radius:3px;
       /*width:500px;*/
-      width: 100%;
+      width: 80%;
       margin:10px auto;
       text-align:center;
       margin-top: 180px;
@@ -131,7 +150,30 @@ tbody td:nth-child(2) .percent{
       display: none;
     }
 
+    tr{
+      text-align:left;
+      overflow:hidden;
+    }
+    td{
+      padding:5px 10px;
+      border-bottom:solid 2px #f0f0f0;
+      width: 100px;
+      font-size: 11px;
+    }
+    tbody td:nth-child(2) .percent{
+      text-align:center;
+      margin-left: 60%;
+    }
     td > span {
         display: none;
+    }
+    .bar{
+      width:100px;
+      height:14px;
+      border:solid 3px #3F4244;
+      border-radius:3px;
+      margin: 11px 1px;
+      overflow:hidden;
+      background: #f0f0f0;
     }
   }

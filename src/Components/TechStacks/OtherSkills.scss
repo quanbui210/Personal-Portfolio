@@ -11,3 +11,10 @@ h2 {
     background-color: #333;
     font-size: 30px;
 }
+
+
+@media screen  and (max-width:600px){
+     .tech-stack {
+        width: 100%;
+     }
+}
