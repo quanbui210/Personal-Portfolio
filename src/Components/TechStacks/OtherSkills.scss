@@ -1,9 +1,13 @@
 h2 {
     text-align: center;
-    font-size: 30px;
 }
 .others {
     margin-bottom: 180px;
+    margin-top: 60px;
+    p {
+        font-size: 20px;
+        font-weight: 350;
+    }
 }
 .tech-stack {
     display: grid;

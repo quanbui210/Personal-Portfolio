@@ -4,7 +4,7 @@ import React from "react";
 const OtherSkills = () => {
   return (
     <section className="others">
-      <h3>Other Tools & Framweorks</h3>
+      <p>Other Tools & Framweorks</p>
       <ul className="tech-stack">
         <li><i className="devicon-materialui-plain colored"></i></li>
         <li><i className="devicon-firebase-plain colored"></i></li>

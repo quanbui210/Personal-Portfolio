@@ -46,12 +46,12 @@
     color: rgb(62, 62, 62);
     text-decoration: none;
     font-weight: bold;
-    border: 0.5px solid #ccc;
+    border: 0.5px solid #333;
     padding: 4px;
         &:hover {
             opacity: 0.8;
-            color: #333;
-            background-color: #ccc;
+            color: #ffffff;
+            background-color: #272727;
         }        
 }
  
@@ -90,7 +90,7 @@
     box-shadow : 0 5px 20px rgba(0,0,0,0.2);
     z-index : 1;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
   
   .card-container .card .image img {
@@ -113,7 +113,8 @@
     opacity : 0;
     transition : 0.3s ease-in-out;
     h4 {
-        font-size: 20px;
+        font-size: 22px;
+        font-weight: bold;
     }
     p {
         font-size: 13.5px;
@@ -121,6 +122,14 @@
             color: #299ca4;
         }
     }
+    a :hover {
+            opacity: 0.8;
+            cursor: pointer;
+            transform: translateY(-6px);
+            transition: all .2s ease-in-out 0s;
+            -webkit-transform: all .4s ease-in-out 0s;
+        }
+    
   }
   
   .card-container .card:hover .content {

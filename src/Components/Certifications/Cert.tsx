@@ -7,6 +7,7 @@ import React from "react";
 import hsimg from "../../assets/hubspot.png";
 import jsimg from "../../assets/jscert.png"
 import icert from "../../assets/icert.png"
+import certImg from "../../assets/certificate.png"
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
 
@@ -15,7 +16,7 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 const Certifications = () => {
   return (
     <section id="cert">
-      <h2 className='cert-title'>Certifications</h2>
+      <h2 className='cert-title'>Certifications <img alt="img" src={certImg}/></h2>
       <div className='cert'>
           <div>
             <a href="https://app-eu1.hubspot.com/academy/achievements/0fp51zm9/en/1/bui-quan/hubspot-cms-for-developers">

@@ -3,6 +3,7 @@ import React from "react";
 
 import Form from "./Form.tsx";
 import "./Contact.scss"
+import contactImg from "../../assets/contacts.png"
 
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -17,7 +18,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="contact-detail">
-        <h3>Contact Me</h3>
+        <h3>Contact Me <img src={contactImg} alt="" /></h3>
         <p>At the moment, I am looking for Junior positions in Frontend or Full-Stack Development in Finland</p>
         <p>Feel free to contact me through my email: quanbui021001@gmail.com
                     or through my <a href="https://www.linkedin.com/in/quan-bui-0a4908209/">LinkedIn profile</a>
