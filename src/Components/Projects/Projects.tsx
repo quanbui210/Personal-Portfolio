@@ -18,7 +18,7 @@ const projects = [
     title: "Sunrob e-commerce",
     description: "Demo Shopping Website for Sunrob Robotics (Frontend), a robotic company in Lappeenranta (Merchs / Toys).",
     techstacks: "React | Redux Toolkit | MUI | Firebase | Axios",
-    img: "https://user-images.githubusercontent.com/89993167/211213001-6c01ad3e-acfb-40a2-81b4-5b30335ec04f.png",
+    img: "https://user-images.githubusercontent.com/89993167/211213062-6ef79442-648a-4b34-9c9a-89609e07ef4e.png",
     github: "https://github.com/quanbui210/Sunrob-Robotics",
     live: "https://sunrob-robotics.vercel.app/"
   },
