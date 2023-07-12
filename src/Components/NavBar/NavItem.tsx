@@ -11,7 +11,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import AppBar from "@mui/material/AppBar";
-
+import codeImg from "../../assets/coding.png";
 
 import React, { useState } from "react";
 
@@ -75,8 +75,8 @@ const NavItem = () => {
           </> 
           :
           <>
-            <a href="/" className='navbar--list__title'>Quan Bui <CodeIcon/>  </a> 
-            <Nav bg="light" variant="light">
+            <img src={codeImg} alt="" className="navbar--list__item img" />
+            <Nav variant="light">
               <a className="navbar--list__item" href="#intro">About Me</a>
               <a className="navbar--list__item" href="#tech-stack">Skills</a>
               <a className="navbar--list__item" href="#projects">Projects</a>

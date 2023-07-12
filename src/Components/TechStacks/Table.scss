@@ -1,13 +1,14 @@
 table {
     width:100%;
-    background: #6e6e6e;
-    color: #F8F8F8;
+    background: #ffff;
+    border: 1px solid #333;
+    color: #232323 !important;
         thead {
-            background:#2D2E30;
+            background:#d2d4d8;
                 tr td {
                     font-weight:400;
                     text-align:center;
-                    
+                    color: #edecec !important;
                 }
         }
 }
@@ -16,15 +17,20 @@ table {
 tr{
     text-align:left;
     overflow:hidden;
+    color: #393838 !important;
 }
 td{
     padding:5px 10px;
-    border-bottom:solid 2px #f0f0f0;
+    border-bottom:solid 1px #333233;
+    // border-top:1px solid #ca44c8 ;
     width: 100px;
+    color: #363636 !important;
 }
 tbody td:nth-child(2) .percent{
     text-align:center;
     margin-left: 60%;
+    color: #2a2929 !important;
+
 }
 .bar{
     width:200px;
@@ -34,6 +40,8 @@ tbody td:nth-child(2) .percent{
     margin: 15px 1px;
     overflow:hidden;
     background: #f0f0f0;
+    color: #ccc !important;
+
   }
   .fill{
     max-width:100% !important;

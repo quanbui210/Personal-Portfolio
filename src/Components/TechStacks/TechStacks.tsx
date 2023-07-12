@@ -7,9 +7,8 @@ const TechStacks = () => {
   return (
     <section id="tech-stack">
       <div className="container">
-        <h2>Some of the Technologies that I have been recently working with</h2>
-        <p>At the moment, I am focusing on becoming a Full Stack Developer with JavaScript and React for Frontend Development, 
-           Java and Spring for Backend Development and Cloud with AWS
+        <h2>Skills & Technologies</h2>
+        <p>Some of the technologies that I&apos;ve been recently working with
         </p>
         <div className="border">
           <Table/>

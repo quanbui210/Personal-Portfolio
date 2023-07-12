@@ -1,15 +1,29 @@
 h2 {
     text-align: center;
+    font-size: 30px;
+}
+.others {
+    margin-bottom: 180px;
 }
 .tech-stack {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-around;
     list-style-type: none;
-    border: 1px solid #ccc;
     padding: 15px 0;
     color: #ccc;
-    background-color: #333;
+    // background: #414141;
     font-size: 30px;
+    li {
+        margin: 20px 0;
+        i:hover{
+            opacity: 0.8;
+            cursor: pointer;
+            transform: translateY(-6px);
+            transition: all .2s ease-in-out 0s;
+            -webkit-transform: all .4s ease-in-out 0s;
+        }
+    }
 }
 
 

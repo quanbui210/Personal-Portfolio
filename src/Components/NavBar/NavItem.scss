@@ -13,7 +13,7 @@
                     font-size: 26px;
                         &:hover {
                             opacity: 0.8;
-                            color: #fff;
+                            color: #2a2929;
                         }
                 }
                 &__item {
@@ -22,11 +22,15 @@
                     position: relative;
                     min-height: 26px;
                     text-decoration: none;
-                    color: #ccc !important;
+                    color: #2e2e2e !important;
                     font-size: 15px;
-                    margin-right: 20px;
+                    margin-right: 30px;
                 }
-        }
+            }
+}
+
+.nav-img {
+    width: 200px !important;
 }
 
 .container-menu {
@@ -44,7 +48,7 @@
 }
 
 .menu-item {
-    color: #ccc;
+    color: #343333;
     text-decoration: none;
     margin: 10px;
         &-hover {

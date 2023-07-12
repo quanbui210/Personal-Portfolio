@@ -3,21 +3,24 @@
 
 body {
   @include reset;
-  background-image: linear-gradient(to left, #414040, #000000);
-  color: $text-color;
+  // background-image: linear-gradient(to left, #414040, #000000);
+  background-color: #f9f8f8;
 };
 
 
 * {
   font-family: 'Sono', sans-serif;
+  color: #323030;
 }
 
 h2, h3, h4, h5, h6, p{
+  color: #323030;
   font-weight:300;
   letter-spacing: .3px;
 }
 
 h1 {
+  color: #323030 !important;
   font-weight: 300;
   letter-spacing: .2px;
 }

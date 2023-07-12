@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import "./ProjectCard.scss";
 import React from "react";
@@ -15,30 +17,19 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
 const ProjectCard = ({title, description, tech, img, github, live}) => {
   return (
-    <div className="card-container">
-      <Card className="project-card" sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="140"
-          image={img}
-          alt="Project Img"
-          className='project-card-image'
-        />
-        <CardContent className='project-card-content'>
-          <Typography gutterBottom variant="h5" component="div">
-            {title}
-          </Typography>
-          <Typography variant="body2" color="text.secondary" className="project-card-text">
-            <i>{description} </i><br/>
-            <p className="project-card-tech">{tech}</p>
-          </Typography>
-        </CardContent>
-        <CardActions className='project-card-content'>
-          <a href={github} className='project-card-icon'><GitHubIcon/></a> 
-          <a className='project-card-icon' href={live}><OpenInNewIcon/></a>
-        </CardActions>
-      </Card>  
-    </div>
+  <div className="card-container">
+    <div className = "card">
+      <div className="image">
+      <img href = "#" src ={img}/>
+      </div>
+      <div className="content">
+        <p>{description}</p>
+        <p><i>{tech}</i></p>
+        <a href={github}><GitHubIcon/></a>
+        <a href={live}><OpenInNewIcon/></a>
+      </div>
+    </div> 
+  </div>
   )
 }
 

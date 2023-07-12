@@ -2,23 +2,23 @@
     color: #ccc;
     margin-top: 70px;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
         img{
             width: 500px;
             height: 480px;
             max-height: 480px;
             margin: 50px 0;
+            border: 1px solid #333;
         }
         a {
             font-size: 22px;
-            color: #ccc;
+            color: #313131;
                 &:hover {
-                    color: #ccc;
                     opacity: 0.6;
                 }
         }
 }
-
-
 
 .badge-icon {
     position: absolute;

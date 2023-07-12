@@ -6,9 +6,11 @@ import TechStacks from "./Components/TechStacks/TechStacks";
 import Certifications from "./Components/Certifications/Cert";
 import Contact from "./Components/Contact/Contact";
 import React from "react";
+import Background from "./Components/Background/Background";
 function App() {
   return (
     <div className="App">
+      <Background></Background>
       <NavBar/>
       <main>
         <Introduction/>
