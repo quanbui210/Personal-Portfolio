@@ -1,7 +1,6 @@
 .project-card { 
     margin-top: 60px;
-    min-width: 65%;
-    width: 600px;
+    max-width: 65%;
     max-height: 600px;
     color: rgb(230, 230, 230);
     box-shadow: 0 0 1px 1px rgb(92, 92, 92) !important;
@@ -62,6 +61,8 @@
     align-items : center !important;
     justify-content : center !important;
     flex-wrap : wrap;
+    margin-bottom: 30px;
+    margin-top: 10px;
   }
   
   .card-container .card {
@@ -78,7 +79,14 @@
   .card-container .card:hover {
     height : 320px;    
   }
-  
+
+  .card-container:hover .card-titl {
+    display: none; 
+  }
+
+  .card-titl {
+    text-align: center;
+  }
   
   .card-container .card .image {
     position : relative;
@@ -118,17 +126,21 @@
     }
     p {
         font-size: 13.5px;
+        margin: 0 60px;
         i {
             color: #299ca4;
         }
     }
-    a :hover {
-            opacity: 0.8;
-            cursor: pointer;
-            transform: translateY(-6px);
-            transition: all .2s ease-in-out 0s;
-            -webkit-transform: all .4s ease-in-out 0s;
-        }
+    a {
+        margin-left: 15px;     
+        :hover {
+               opacity: 0.8;
+               cursor: pointer;
+               transform: translateY(-6px);
+               transition: all .2s ease-in-out 0s;
+               -webkit-transform: all .4s ease-in-out 0s;
+           }
+    }
     
   }
   
@@ -138,6 +150,13 @@
      opacity : 1;
      transition-delay: 0.2s;
   }
+
+  @media screen and (min-width: 700px) and (max-width: 1500px) {
+    .card-container .card {
+        width: 600px;
+    }
+  }
+
 @media screen and (max-width: 500px){
     .project-card { 
         margin-top: 40px;

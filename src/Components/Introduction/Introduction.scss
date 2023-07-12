@@ -16,6 +16,7 @@
         }
         &-description {
             font-size: 20px;
+            font-weight: 300;
             font-style: italic;
             margin-top: 14px;
             line-height: 2.0;
@@ -127,18 +128,25 @@
   }
   
 
-@media screen and (min-width: 700px) and (max-width: 1900px) {
+@media screen and (min-width: 700px) and (max-width: 1500px) {
     .intro {
         margin: 240px 200px;
+        width: 70%;
             &-title{
-                font-size: 46px;
+                font-size: 45px;
                 color: #ccc;
                 letter-spacing: .3px;
+                margin-bottom: 0;
+            }
+            &-img{
+              margin-left: 100px;
+              margin-bottom: 20px;
+              margin-top: -40px;
             }
             &-description {
                 font-size: 21px;
-                margin-top: 14px;
                 line-height: 1.6;
+                width: 70%;
             }
     }
 }
