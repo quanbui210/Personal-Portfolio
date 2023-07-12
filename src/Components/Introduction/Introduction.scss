@@ -1,3 +1,6 @@
+p {
+  font-weight: 450 !important;
+}
 .intro {
     margin: 350px 180px;
     width: 100%;
@@ -7,7 +10,6 @@
             color: #ccc;
             letter-spacing: .4px;
             font-weight: 680;
-            margin-bottom: 25px;
         }
         &-img{
           margin-left: 40px;
@@ -18,8 +20,8 @@
             font-size: 20px;
             font-weight: 300;
             font-style: italic;
-            margin-top: 14px;
             line-height: 2.0;
+            margin-top: -10px;
         }
         &-icon {
             margin: 0px 20px 0px 0px;
