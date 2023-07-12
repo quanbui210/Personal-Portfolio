@@ -23,6 +23,7 @@ const ProjectCard = ({title, description, tech, img, github, live}) => {
       <img href = "#" src ={img}/>
       </div>
       <div className="content">
+        <h4>{title}</h4>
         <p>{description}</p>
         <p><i>{tech}</i></p>
         <a href={github}><GitHubIcon/></a>
