@@ -1,26 +1,5 @@
 .project-card { 
     margin-top: 60px;
-    max-width: 65%;
-    max-height: 600px;
-    color: rgb(230, 230, 230);
-    box-shadow: 0 0 1px 1px rgb(92, 92, 92) !important;
-    background-color: transparent !important;
-        &-image{
-            width: 100%;
-            min-height: 300px; 
-            object-fit: contain;
-        }
-        &-content {
-            color: rgb(90, 88, 88);
-        }
-        &-text{
-            width: 60%;
-            font-weight: 550;
-            font-size: 13px;
-            line-height: 1.8rem !important;
-            letter-spacing: .0.8rem;
-            color: rgb(153, 150, 150) !important;
-        }
         &-icon {
             color: #3d3d3d;
                 :hover {
@@ -67,14 +46,14 @@
   
   .card-container .card {
     height : 215px;  
-    background-color : #ffffff;
+    background-color : transparent;
     margin : 50px 15px 100px 15px;
     display : flex;
     flex-direction : column;
-    box-shadow : 0 5px 20px rgba(50, 50, 50, 0.5);
     transition : 0.3s ease-in-out;
     border-radius : 15px;
     width: 800px;
+    border: none;
   }
   .card-container .card:hover {
     height : 320px;    
@@ -89,7 +68,6 @@
   }
   
   .card-container .card .image {
-    position : relative;
     min-width : 100px;
     width: 380px;
     max-height : 280px;
@@ -99,6 +77,7 @@
     z-index : 1;
     margin: 0 auto;
     margin-bottom: 35px;
+    border-radius: 15px;
   }
   
   .card-container .card .image img {
@@ -150,6 +129,16 @@
      opacity : 1;
      transition-delay: 0.2s;
   }
+
+  .card-container .card:hover .image {
+    position: relative;
+  }
+
+    
+  .card-container .card:hover  {
+    background-color: #ffff;
+    box-shadow : 0 5px 20px rgba(50, 50, 50, 0.5);
+  }  
 
   @media screen and (min-width: 700px) and (max-width: 1500px) {
     .card-container .card {
