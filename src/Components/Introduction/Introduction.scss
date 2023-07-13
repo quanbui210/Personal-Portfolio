@@ -2,19 +2,19 @@ p {
   font-weight: 450 !important;
 }
 .intro {
-    margin: 350px 180px;
-    width: 100%;
+    margin: 350px auto;
+    width: 80%;
     animation: slideInUp 0.5s ease-out forwards;
         &-title{
-            font-size: 55px;
+            font-size: 50px;
             color: #ccc;
             letter-spacing: .4px;
             font-weight: 680;
         }
         &-img{
-          margin-left: 40px;
           margin-bottom: 60px;
           margin-top: -40px;
+          margin-left: 170px !important;
         }
         &-description {
             font-size: 20px;
@@ -22,6 +22,7 @@ p {
             font-style: italic;
             line-height: 2.0;
             margin-top: -10px;
+            width: 65%;
         }
         &-icon {
             margin: 0px 20px 0px 0px;
