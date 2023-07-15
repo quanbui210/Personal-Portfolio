@@ -25,6 +25,10 @@
                     color: #2e2e2e !important;
                     font-size: 15px;
                     margin-right: 30px;
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline !important;
+                }
                 }
             }
 }
@@ -55,3 +59,4 @@
             text-decoration: underline;
         }
 }
+
