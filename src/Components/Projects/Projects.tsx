@@ -9,7 +9,7 @@ const projects = [
   {
     title: "Library Management",
     description: "Full stack library project, can be logged in as an user or admin with different functionalities. (Read more on github)",
-    techstacks: "SpringBoot | Java | PostgreSQL | React | Docker | Redux Toolkit",
+    techstacks: "SpringBoot | Java | PostgreSQL | React | TypeScript | Docker | Redux Toolkit | Hibernate",
     img: "https://user-images.githubusercontent.com/89993167/252905770-4e755f03-98dd-4eca-b4c4-5cc1884bcdad.png",
     github: "https://github.com/quanbui210/Library-Management",
     live: "https://library-quanbui.netlify.app/"
