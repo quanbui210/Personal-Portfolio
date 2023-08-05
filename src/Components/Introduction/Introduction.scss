@@ -62,21 +62,26 @@ p {
     .intro {
         margin: 200px 100px 0px 80px;
             &-title{
-                font-size: 25px;
-                letter-spacing: .3px;
+                font-size: 22px;
+                letter-spacing: .2px;
             }
             &-description {
-                font-size: 14px;
+                font-size: 12px;
                 font-style: italic;
-                margin-top: 14px;
+                margin-top: -60px;
                 line-height: 1.6;
             }
             &-icon {
-                margin: 0px 10px 10px 15px;
+              width: 30px !important;
                     &:hover {
                         opacity: 0.8;
                         color: rgb(78, 69, 69);
                     }
+            }
+            &-img{
+              margin-bottom: 30px;
+              margin-top: -20px;
+              width: 200px;
             }
     }
 }
@@ -152,6 +157,8 @@ p {
             }
     }
 }
+
+
 
 
 

@@ -8,3 +8,9 @@
     grid-template-columns: 1fr 1fr;
 }
 
+
+@media screen and (max-width: 600px) {
+    .p-container {
+        grid-template-columns: 1fr;
+    }
+}
