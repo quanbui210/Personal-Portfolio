@@ -10,6 +10,7 @@ import gmail from "../../assets/gmail.png"
 import github from "../../assets/github.png"
 import resume from "../../assets/resume.pdf"
 import boy from "../../assets/boy.png"
+import awscert from "../../assets/AWScert.png"
 
 
 
@@ -36,7 +37,7 @@ export default function Introduction() {
       </CSSTransition>
       </div>
       <CSSTransition in={showIntro} timeout={1500} classNames="intro-slide-delay">
-        <p className="intro-description">A highly adaptable web developer with a huge passion in coding, designing and working with websites. 
+        <p className="intro-description">Enthusiastic Full Stack Developer & Certified AWS Cloud Practitioner <img src={awscert} alt="AWS"/>
        </p>
       </CSSTransition>
       <CSSTransition CSSTransition in={showIntro} timeout={2000} classNames="intro-slide-delay-long">

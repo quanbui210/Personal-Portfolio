@@ -69,7 +69,7 @@ const NavItem = () => {
                 <li><a className="menu-item" href="#intro">About Me</a></li>
                 <li><a className="menu-item" href="#tech-stack">Skills</a></li>
                 <li><a className="menu-item" href="#projects">Projects</a></li>
-                <li><a className="menu-item" href="#cert">Certifications</a></li> 
+                <li><a className="menu-item" href="#cert">Accomplishments</a></li> 
               </ul>
             </Drawer>
           </> 
