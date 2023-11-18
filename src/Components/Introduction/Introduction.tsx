@@ -30,7 +30,7 @@ export default function Introduction() {
       <section className="intro" id="intro"> 
       <div className="intro-cont">
       <CSSTransition in={showIntro} timeout={1000} cxlassNames="intro-slide">
-        <h1 className="intro-title">Hi, I'm Quan Bui, <br/> I build and design Web Applications  </h1>
+        <h1 className="intro-title">Hi, I&lsquo;m Quan Bui, <br/> I build and design Web Applications  </h1>
       </CSSTransition>
       <CSSTransition in={showIntro} timeout={1200} classNames="intro-slide-img">
         <img className="intro-img" src={boy} alt="" />
